@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".StatusActivity">
+    <FrameLayout android:id="@+id/my_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+        <EditText
+	        android:id="@+id/txtStatusMessage"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="2dp"
+	        android:hint="@string/statushint"
+	        android:inputType="textMultiLine"
+	        android:textColor="#000000"
+	        android:textSize="18sp" />
+    </FrameLayout>
+    <RelativeLayout
+	    android:id="@+id/my_toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/bgshape2"
+		>
+	    <ImageView
+	        android:id="@+id/imgOptions"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/empty"
+	        android:layout_marginLeft="5dp"
+	        android:layout_alignParentLeft="true"
+	        android:clickable="true"
+	        android:src="@drawable/options_selector" />
+	    <ImageView
+	        android:id="@+id/imgSend"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:contentDescription="@string/empty"
+	        android:layout_marginRight="10dp"
+	        android:clickable="true"
+	        android:src="@drawable/send_selector" />
+   </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Keep Up</string>
+    <string name="action_settings">Settings</string>
+    <string name="circles">Circles</string>
+    <string name="posts">Posts</string>
+    <string name="requests">Requests</string>
+    <string name="status">Status</string>
+    <string name="statushint">"Share your thoughts...."</string>
+	<string name="empty"></string>
+	<string name="camera">Camera</string>
+	<string name="gallery">Gallery</string>
+	<string name="video">Video</string>
+	<string name="attach">Attachment</string>
+	<string name="attachMessage">Oops! Seems your device has no Camera feature :(</string>
+	<string name="errorMessage">Oops! Something unexpected just happened, please try again :(</string>
+	<string name="ok">OK</string>
+	
+</resources>
